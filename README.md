@@ -17,7 +17,7 @@
 
 | url                                     | Опис                                | md5                            | Розмір           | Samples                                             |
 |-----------------------------------------------|--------------------------------------------|---------------------------------|----------------|-----------------------------------------------------------|
-|  | *Pensive, introspective, soft, and lovely* | `55bfe4272ce1e77d9bbafebf9ec99330` | `3585448` | <p align="center">[🔗](voice_samples/uk_female_pensive)</p> |
+| https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz | *Pensive, introspective, soft, and lovely* | `55bfe4272ce1e77d9bbafebf9ec99330` | `3585448` | <p align="center">[🔗](voice_samples/uk_female_pensive)</p> |
 
 ## ⚙️Встановлення
 
