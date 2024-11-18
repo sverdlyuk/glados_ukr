@@ -47,7 +47,10 @@
 - Натисніть кнопку Виконати Дію.
 
 ### 2. Home Assistant інтеграція Xiaomi Miot
-- Встановіть інтеграцію [Xiaomi Miot Auto](https://my.home-assistant.io/redirect/hacs_repository/?owner=al-one&repository=hass-xiaomi-miot)
+- Встановіть інтеграцію [Xiaomi Miot Auto](https://github.com/al-one/hass-xiaomi-miot)
+
+[![Add to HACS via My Home Assistant](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=al-one&repository=hass-xiaomi-miot&category=integration)
+
 - В Home Assistant, перейдіть до `"Інструменти для розробників"` -> `"Дії"` та переключіться в `YAML mode`
 - Вставте наступний код:
 
