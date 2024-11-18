@@ -30,15 +30,16 @@
 - Вставте наступний код:
 
   ```yaml
-  service: dreame_vacuum.vacuum_install_voice_packdata:
+  service: dreame_vacuum.vacuum_install_voice_pack
   data:
-  lang_id: UK
-  url: >-
-    https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz
-  md5: 3545e91c0626beccbd284469f6283a77
-  size: 9620968
+    lang_id: UK
+    url: >-
+      https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz
+    md5: 3545e91c0626beccbd284469f6283a77
+    size: 9620968
   target:
-  entity_id: vacuum.mops
+    entity_id: vacuum.mops
+
 - Замініть entity_id vacuum.mops на entity_id вашого робота пилосмока
 - Натисніть кнопку Виконати Дію.
 
