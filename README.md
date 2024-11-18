@@ -52,9 +52,9 @@
 service: xiaomi_miot.set_miot_property
 data:
   entity_id: vacuum.dreame_p2041o_796c_robot_cleaner
-  siid: 7 # siid для аудіосервісу
-  piid: 4 # piid для встановлення голосового пакету
-  value: '{"id":"UK","url":"https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz","md5":"3545e91c0626beccbd284469f6283a77","size":9620968}'
+    siid: 7 # siid для аудіосервісу
+    piid: 4 # piid для встановлення голосового пакету
+    value: '{"id":"UK","url":"https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz","md5":"3545e91c0626beccbd284469f6283a77","size":9620968}'
   ```
 
 
