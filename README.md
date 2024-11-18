@@ -71,7 +71,7 @@ miiocli device --ip 192.168.50.157 --token 614a498f6c72506d6e3066764f73696a raw_
 - Змініть IP та tocken на власні
 
   
-### 5. Встановлення за допомогою Valetudo
+### 5. Valetudo
 - Відкрийте веб-інтерфейс Valetudo, ввівши IP-адресу вашого пилососа у веб-браузері.
 - У Valetudo, перейдіть до `"Robot Settings"`-> `"Misc Settings."`
 - Вставте наступні параметри в секцію `"Voice packs"`:
