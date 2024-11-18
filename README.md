@@ -31,6 +31,7 @@
 
   ```yaml
   service: dreame_vacuum.vacuum_install_voice_packdata:
+  data:
   lang_id: UK
   url: >-
     https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz
