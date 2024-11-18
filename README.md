@@ -22,7 +22,7 @@
 
 ## ⚙️Встановлення
 
-Ви можете встановити голосовий пакет GLaDOS декількома способами.
+Ви можете встановити голосовий пакет GLaDOS декількома способами. Детальну інструкцію можна переглянути [тут](https://dou.ua/forums/topic/49563/).
 
 ### 1. Home Assistant інтеграція Dreame Vacuum
 - Встановіть інтеграцію [Dreame vacuum](https://github.com/Tasshack/dreame-vacuum.git) 
