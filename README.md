@@ -39,7 +39,8 @@ data:
   size: 9620968
 target:
   entity_id: vacuum.mops
-  ``
+  ```
+  ```
 - Замініть entity_id vacuum.mops на entity_id вашого робота пилосмока
 - Натисніть кнопку Виконати Дію.
 
