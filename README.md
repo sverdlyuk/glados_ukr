@@ -24,7 +24,7 @@
 
 Ви можете встановити голосовий пакет GLaDOS декількома способами
 
-### 1.[Home Assistant](https://www.home-assistant.io/) інтеграція Dreame Vacuum
+### 1. Home Assistant інтеграція Dreame Vacuum
 - Встановіть інтеграцію [Dreame vacuum](https://github.com/Tasshack/dreame-vacuum.git) 
 - В Home Assistant, перейдіть до `"Інструменти для розробників"` -> `"Дії"` та переключіться в `YAML mode`
 - Вставте наступний код:
@@ -43,7 +43,7 @@
 - Замініть entity_id vacuum.mops на entity_id вашого робота пилосмока
 - Натисніть кнопку Виконати Дію.
 
-### 2.[Home Assistant](https://www.home-assistant.io/) інтеграція Xiaomi Miot
+### 2. Home Assistant інтеграція Xiaomi Miot
 - Встановіть інтеграцію [Xiaomi Miot Auto](https://my.home-assistant.io/redirect/hacs_repository/?owner=al-one&repository=hass-xiaomi-miot)
 - В Home Assistant, перейдіть до `"Інструменти для розробників"` -> `"Дії"` та переключіться в `YAML mode`
 - Вставте наступний код:
@@ -57,20 +57,18 @@ data:
     value: '{"id":"UK","url":"https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz","md5":"3545e91c0626beccbd284469f6283a77","size":9620968}'
   ```
 
+### 3. Python Miio
 
+### 4. Встановлення за допомогою Valetudo
+- Відкрийте веб-інтерфейс Valetudo, ввівши IP-адресу вашого пилососа у веб-браузері.
+- У Valetudo, перейдіть до `"Robot Settings"`-> `"Misc Settings."`
+- Вставте наступні параметри в секцію `"Voice packs"`:
+    - URL: https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz
+    - Language Code: 'UK'
+    - Hash: 3545e91c0626beccbd284469f6283a77
+    - File size: 9620968
+- Збережіть та натисніть `"Set Voice Pack`."
 
-### 3. Встановлення за допомогою [Valetudo](https://valetudo.cloud/)
-- Open Valetudo's web interface by entering your vacuum's IP address in a web browser.
-- In Valetudo, navigate to `"Robot Settings"`-> `"Misc Settings."`
-- Enter the following information in the `"Voice packs"` section:
-    - **URL:** Raw URL for the voice pack from the "voice_packs" directory in this repository.
-    - **Language Code:** 'UK'
-    - **Hash:** The hash of the voice pack.
-    - **File size:** The file size of the voice pack in bytes.
-- Save the settings by clicking `"Set Voice Pack`."
-
-### 3. Installing on Official Firmware with [Python MIIO](https://python-miio.readthedocs.io/en/latest/)
-Detailed installation instructions can be found in the [python-miio](https://github.com/rytilahti/python-miio.git) repository, created by **@rytilahti**.
 
 ## 📜Ліцензія
 Цей проєкт є відкритим і доступним за умовами ліцензії MIT. Ви можете вільно використовувати та змінювати його відповідно до умов ліцензії.
