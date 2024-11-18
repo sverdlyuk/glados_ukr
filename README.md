@@ -15,9 +15,9 @@
 
 
 
-| Голосовий пакет                                     | Опис                                | md5                            | Розмір           | Samples                                             |
+| url                                     | Опис                                | md5                            | Розмір           | Samples                                             |
 |-----------------------------------------------|--------------------------------------------|---------------------------------|----------------|-----------------------------------------------------------|
-| [uk_female_pensive](voice_packs/uk_female_pensive/) | *Pensive, introspective, soft, and lovely* | `55bfe4272ce1e77d9bbafebf9ec99330` | `3585448` | <p align="center">[🔗](voice_samples/uk_female_pensive)</p> |
+|  | *Pensive, introspective, soft, and lovely* | `55bfe4272ce1e77d9bbafebf9ec99330` | `3585448` | <p align="center">[🔗](voice_samples/uk_female_pensive)</p> |
 
 ## ⚙️Встановлення
 
