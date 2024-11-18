@@ -22,26 +22,44 @@
 
 ## ⚙️Встановлення
 
-You can install the Ukrainian voice pack on your Dreame vacuum cleaner using one of the following methods:
+Ви можете встановити голосовий пакет GLaDOS декількома способами
 
-### 1. Installing on Official Firmware with [Home Assistant](https://www.home-assistant.io/)
-- Install the custom [Dreame vacuum](https://github.com/Tasshack/dreame-vacuum.git)  integration for Home Assistant, created by **@Tasshack**.
-- In Home Assistant, navigate to `"Developer Tools"` -> `"Services"` and switch to `YAML mode`.
-- Paste the following code:
+### 1.[Home Assistant](https://www.home-assistant.io/) інтеграція Dreame Vacuum
+- Встановіть інтеграцію [Dreame vacuum](https://github.com/Tasshack/dreame-vacuum.git) 
+- В Home Assistant, перейдіть до `"Інструменти для розробників"` -> `"Дії"` та переключіться в `YAML mode`
+- Вставте наступний код:
 
   ```yaml
   service: dreame_vacuum.vacuum_install_voice_pack
-  data:
-    lang_id: UK
-    url: Raw URL for the voice pack from the "voice_packs" directory in this repository.
-    md5: The hash of the voice pack.
-    size: The file size of the voice pack in bytes.
-  target:
-    entity_id: vacuum.dreame
+data:
+  lang_id: UK
+  url: >-
+    https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz
+  md5: 3545e91c0626beccbd284469f6283a77
+  size: 9620968
+target:
+  entity_id: vacuum.mops
   ```
-- Call the service to set the new voice pack.
+- Замініть entity_id `vacuum.mops` на entity_id вашого робота пилосмока
+- Натисніть кнопку `"Виконати Дію"`.
 
-### 2. Installing on Custom Firmware with [Valetudo](https://valetudo.cloud/)
+### 2.[Home Assistant](https://www.home-assistant.io/) інтеграція Xiaomi Miot
+- Встановіть інтеграцію [Xiaomi Miot Auto](https://my.home-assistant.io/redirect/hacs_repository/?owner=al-one&repository=hass-xiaomi-miot)
+- В Home Assistant, перейдіть до `"Інструменти для розробників"` -> `"Дії"` та переключіться в `YAML mode`
+- Вставте наступний код:
+
+ ```yaml
+service: xiaomi_miot.set_miot_property
+data:
+  entity_id: vacuum.dreame_p2041o_796c_robot_cleaner
+  siid: 7 # siid для аудіосервісу
+  piid: 4 # piid для встановлення голосового пакету
+  value: '{"id":"UK","url":"https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz","md5":"3545e91c0626beccbd284469f6283a77","size":9620968}'
+  ```
+
+
+
+### 3. Встановлення за допомогою [Valetudo](https://valetudo.cloud/)
 - Open Valetudo's web interface by entering your vacuum's IP address in a web browser.
 - In Valetudo, navigate to `"Robot Settings"`-> `"Misc Settings."`
 - Enter the following information in the `"Voice packs"` section:
