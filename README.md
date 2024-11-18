@@ -41,7 +41,7 @@ target:
   entity_id: vacuum.mops
   ```
 - Замініть entity_id vacuum.mops на entity_id вашого робота пилосмока
-- Натисніть кнопку `"Виконати Дію"`.
+- Натисніть кнопку Виконати Дію.
 
 ### 2.[Home Assistant](https://www.home-assistant.io/) інтеграція Xiaomi Miot
 - Встановіть інтеграцію [Xiaomi Miot Auto](https://my.home-assistant.io/redirect/hacs_repository/?owner=al-one&repository=hass-xiaomi-miot)
