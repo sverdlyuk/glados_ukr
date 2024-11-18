@@ -26,6 +26,7 @@
 
 ### 1. Home Assistant інтеграція Dreame Vacuum
 - Встановіть інтеграцію [Dreame vacuum](https://github.com/Tasshack/dreame-vacuum.git). \
+  
 [![Add to HACS via My Home Assistant](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Tasshack&repository=dreame-vacuum&category=integration)
 
 - В Home Assistant, перейдіть до `"Інструменти для розробників"` -> `"Дії"` та переключіться в `YAML mode`
