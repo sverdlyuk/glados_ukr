@@ -57,15 +57,21 @@ data:
   value: '{"id":"UK","url":"https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz","md5":"3545e91c0626beccbd284469f6283a77","size":9620968}'
   ```
 
-### 3. Python Miio
+### 3. Python Miio (genericmiot)
 - Встановіть Python Miio
 - Запустіть команду
 ```python
 python -m miio.cli genericmiot --ip 192.168.50.157 --token 614a498f6c72506d6e3066764f73696a raw_command set_properties "[{'did': '8023334994', 'siid': 7, 'piid': 4, 'value' : '{\"id\":\"UK\",\"url\":\"https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz\",\"md5\":\"3545e91c0626beccbd284469f6283a77\",\"size\":9620968}'}]"
 ```
+
+### 4. Python Miio (device)
+```python
+miiocli device --ip 192.168.50.157 --token 614a498f6c72506d6e3066764f73696a raw_command set_properties "[{'did': '8023334994', 'siid': 7, 'piid': 4, 'value' : '{\"id\":\"UK\",\"url\":\"https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz\",\"md5\":\"3545e91c0626beccbd284469f6283a77\",\"size\":9620968}'}]"
+```
 - Змініть IP та tocken на власні
+
   
-### 4. Встановлення за допомогою Valetudo
+### 5. Встановлення за допомогою Valetudo
 - Відкрийте веб-інтерфейс Valetudo, ввівши IP-адресу вашого пилососа у веб-браузері.
 - У Valetudo, перейдіть до `"Robot Settings"`-> `"Misc Settings."`
 - Вставте наступні параметри в секцію `"Voice packs"`:
