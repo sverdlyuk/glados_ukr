@@ -6,47 +6,7 @@
 Проєкт створено за [фінансової підтримки української спільноти](https://dou.ua/forums/topic/50353/) та озвучений Azla з студії [Lost Human](https://www.youtube.com/channel/UCZuVCATSHsgvBZMH-k3Gjcg), які озвучили Portal 2. Якщо ви ніколи не грали Portal це чудова нагода.
 
 
-<script src="http://api.html5media.info/1.1.8/html5media.min.js"></script>
-
 https://github.com/user-attachments/assets/fd6d2af4-6789-474d-9f72-f2f3c4b18937
-
-
-
-https://github.com/user-attachments/assets/5eb94f7e-3bbc-4132-8337-777a1eb91f2a
-
-
-
-[my text](https://gabalpha.github.io/read-audio/?p=https://archive.org/serve/TimeTraxMD/01.%20Music%2000.mp3)
-
-<button onclick="playAudio()">▶️ Play</button>
-
-<script>
-  function playAudio() {
-    var audio = new Audio('https://github.com/sverdlyuk/glados_ukr/raw/main/glados_samples.mp3');
-    audio.play();
-  }
-</script>
-
-<audio controls>
-  <source src="https://github.com/sverdlyuk/glados_ukr/raw/main/glados_samples.mp3" type="audio/mpeg">
-  Ваш браузер не підтримує аудіоплеєри.
-</audio>
-
-<button onclick="playAudio()">Відтворити аудіо</button>
-
-<script>
-  function playAudio() {
-    var audio = new Audio('https://github.com/sverdlyuk/glados_ukr/raw/main/glados_samples.mp3');
-    audio.play();
-  }
-</script>
-
-<video controls name="media">
-    <source src="https://github.com/sverdlyuk/glados_ukr/raw/main/glados_samples.mp3" type="audio/mp3">
-    Ваш браузер не підтримує аудіо- або відеовідтворення.
-</video>
-
-
 
 
 ## 🚀Особливості
