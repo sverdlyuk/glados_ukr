@@ -6,7 +6,7 @@
 Проєкт створено за [фінансової підтримки української спільноти](https://dou.ua/forums/topic/50353/) та озвучений Azla з студії [Lost Human](https://www.youtube.com/channel/UCZuVCATSHsgvBZMH-k3Gjcg), які озвучили Portal 2. Якщо ви ніколи не грали Portal це чудова нагода.
 
 
-
+<script src="http://api.html5media.info/1.1.8/html5media.min.js"></script>
 
 https://github.com/user-attachments/assets/fd6d2af4-6789-474d-9f72-f2f3c4b18937
 
