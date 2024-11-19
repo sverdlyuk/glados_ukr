@@ -44,7 +44,7 @@
   target:
     entity_id: vacuum.mops
 
-- Замініть entity_id vacuum.mops на entity_id вашого робота пилосмока
+- Замініть entity_id `vacuum.mops` на entity_id вашого робота пилосмока
 - Натисніть кнопку Виконати Дію.
 
 ### 2. Home Assistant інтеграція Xiaomi Miot
@@ -63,7 +63,8 @@ data:
   piid: 4 # piid для встановлення голосового пакету
   value: '{"id":"UK","url":"https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz","md5":"3545e91c0626beccbd284469f6283a77","size":9620968}'
   ```
-
+- Замініть entity_id `vacuum.dreame_p2041o_796c_robot_cleaner` на entity_id вашого робота пилосмока
+  
 ### 3. Python Miio (genericmiot)
 - Встановіть Python Miio
 - Запустіть команду
