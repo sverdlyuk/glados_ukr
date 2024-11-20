@@ -21,7 +21,7 @@
 |------|-------------------------------------------------------------------------------------|
 | md5  | 3545e91c0626beccbd284469f6283a77                                                    |
 | size | 9620968                                                                             |
-| <a href="https://github.com/sverdlyuk/glados_ukr/raw/main/glados_samples.mp3" class="button" target="_blank">▶️ Завантажити</a>  | Приклад озвучення|
+| <a href="https://github.com/sverdlyuk/glados_ukr/raw/main/glados_samples.mp3" class="button" target="_blank">▶️ </a>  | Завантажити приклад озвучення|
 
 ## ⚙️Встановлення
 
