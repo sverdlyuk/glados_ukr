@@ -5,7 +5,7 @@
 Цей голосовий пакет дозволяє вашому роботу-пилососу озвучувати свої дії голосом GLaDOS — штучного інтелекту з гри Portal 2, відомого своєю токсичністю та саркастичним гумором.
 Проєкт створено за [фінансової підтримки української спільноти](https://dou.ua/forums/topic/50353/) та озвучений Azla з студії [Lost Human](https://www.youtube.com/channel/UCZuVCATSHsgvBZMH-k3Gjcg), які озвучили Portal 2. Якщо ви ніколи не грали Portal це чудова нагода.
 
-[![Watch the video](https://github.com/sverdlyuk/glados_ukr/raw/2a1db48abf83dfd41e16d5c996cabdcb67dc79fb/preview.png?raw=true)](https://youtu.be/Gk78p5PVVB8)
+
 
 [![Watch the video](https://img.youtube.com/vi/Gk78p5PVVB8/0.jpg)](https://youtu.be/Gk78p5PVVB8)
 
