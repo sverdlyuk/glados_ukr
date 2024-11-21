@@ -9,6 +9,10 @@
 
 [![Watch the video](https://img.youtube.com/vi/Gk78p5PVVB8/0.jpg)](https://youtu.be/Gk78p5PVVB8)
 
+[![Discord][discord-image]][discord-url]
+
+[discord-url]: https://discord.com/invite/kDv3hmpKbg
+[discord-image]: https://img.shields.io/discord/your-server-id-here?label=Discord&logo=discord&style=flat-square
 
 ## 🚀Особливості
 * Повна українська переозвучка: у пакеті для Dreame (tar.gz) переозвучені 199 оригінальних фраз робота.
