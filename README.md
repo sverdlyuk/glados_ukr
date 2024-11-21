@@ -1,6 +1,7 @@
 # Український голосовий пакет GLaDOS для робота пилосмока  
 [![Банер](https://github.com/sverdlyuk/glados_ukr/blob/main/banner.png)](https://fpv-drones.sitepulse.com.ua)
 
+[![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&style=flat-square)](https://discord.com/invite/kDv3hmpKbg)
 ## 💡Вступ
 Цей голосовий пакет дозволяє вашому роботу-пилососу озвучувати свої дії голосом GLaDOS — штучного інтелекту з гри Portal 2, відомого своєю токсичністю та саркастичним гумором.
 Проєкт створено за [фінансової підтримки української спільноти](https://dou.ua/forums/topic/50353/) та озвучений Azla з студії [Lost Human](https://www.youtube.com/channel/UCZuVCATSHsgvBZMH-k3Gjcg), які озвучили Portal 2. Якщо ви ніколи не грали Portal це чудова нагода.
@@ -9,7 +10,7 @@
 
 [![Watch the video](https://img.youtube.com/vi/Gk78p5PVVB8/0.jpg)](https://youtu.be/Gk78p5PVVB8)
 
-[![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&style=flat-square)](https://discord.com/invite/kDv3hmpKbg)
+
 
 ## 🚀Особливості
 * Повна українська переозвучка: у пакеті для Dreame (tar.gz) переозвучені 199 оригінальних фраз робота.
