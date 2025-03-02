@@ -1,15 +1,15 @@
-1,back_dock_failed.wav,Couldn't reach the dock. Please remove obstacles and make sure the charging surfaces are clean!,Не вдалося дістатися до док-станції. Приберіть перешкоди та очистіть зарядні контакти!,Не вдається дістатись док-станції. Приберіть це сміття навколо мене та очистіть зарядні контакти. Це місце справжнє звалище
-2,back_dock_nearby.wav,"Could not reach docking station, please remove obstacles!","Не вдалося дістатися до док-станції, будь ласка, приберіть перешкоди!",Не вдається дістатися док-станції. Приберіть це сміття з мого шляху. Це місце справжнє звалище.
-3,bin_in.wav,Dustbin installed.,Пилозбірник встановлено.,Пилозбірник встановлено
-4,bin_out.wav,Dustbin removed.,Пилозбірник знято.,Пилозбірник знято
-5,binout_error10.wav,Filter is clogged. Remove the waste bin and clean the filter!,Фільтр засмічений. Зніміть пилозбірник та очистіть фільтр!," У мене надто брудний фільтр, очистьте його щоб я продовжила роботу"
-6,bl_recovery_bootfailed.wav,Bootfailure: It will take about 5 minutes to start restoring the initial version. Please be patient.,Збій завантаження: Відновлення початкової версії займе близько 5 хвилин. Зачекайте будь ласка!,Збій завантаження: Відновлення початкової версії системи займе близько пʼяти хвилин.
-7,bl_recovery_failed.wav,Restore the initial version failed. Please try again.,Не вдалося відновити початкову версію. Спробуйте ще раз.,Не вдалося відновити початкову версію системи. Спробуйте ще раз.
-8,bl_recovery_retry.wav,Restart the initial version. It will take about 5 minutes. Please be patient.,"Перезапуск початкової версії. Це займе близько 5 хвилин. Зачекайте, будь ласка.",Перезапуск відновлення початкової версії системи. Це займе близько пʼяти хвилин
-9,bl_recovery_start.wav,Restoring the initial version. It will take about 5 minutes. Please be patient.,Відновлення початкової версії. Це займе близько 5 хвилин.,Відновлюю початковий стан системи. Це займе близько пʼяти хвилин
-10,bl_recovery_updatefailed.wav,The upgrade failed. It will take about 5 minutes to start restoring the initial version. Please be patient.,Не вдалося виконати оновлення. Відновлення початкової версії. Це займе близько 5 хвилин,Не вдалося виконати оновлення. Відновлюю початкову версію системи. Це займе близько пʼяти хвилин.
-11,charging.wav,Charging.,Заряджання.,  Я відчуваю приплив сил.
-12,clean_bin.wav,Please clean the dustbin.,"Будь ласка, очистіть пилозбірник","Схоже, пилозбірник досяг критичної маси. Очистіть його."
+back_dock_failed.wav,Couldn't reach the dock. Please remove obstacles and make sure the charging surfaces are clean!,Не вдалося дістатися до док-станції. Приберіть перешкоди та очистіть зарядні контакти!,Не вдається дістатись док-станції. Приберіть це сміття навколо мене та очистіть зарядні контакти. Це місце справжнє звалище
+back_dock_nearby.wav,"Could not reach docking station, please remove obstacles!","Не вдалося дістатися до док-станції, будь ласка, приберіть перешкоди!",Не вдається дістатися док-станції. Приберіть це сміття з мого шляху. Це місце справжнє звалище.
+bin_in.wav,Dustbin installed.,Пилозбірник встановлено.,Пилозбірник встановлено
+bin_out.wav,Dustbin removed.,Пилозбірник знято.,Пилозбірник знято
+binout_error10.wav,Filter is clogged. Remove the waste bin and clean the filter!,Фільтр засмічений. Зніміть пилозбірник та очистіть фільтр!," У мене надто брудний фільтр, очистьте його щоб я продовжила роботу"
+bl_recovery_bootfailed.wav,Bootfailure: It will take about 5 minutes to start restoring the initial version. Please be patient.,Збій завантаження: Відновлення початкової версії займе близько 5 хвилин. Зачекайте будь ласка!,Збій завантаження: Відновлення початкової версії системи займе близько пʼяти хвилин.
+bl_recovery_failed.wav,Restore the initial version failed. Please try again.,Не вдалося відновити початкову версію. Спробуйте ще раз.,Не вдалося відновити початкову версію системи. Спробуйте ще раз.
+bl_recovery_retry.wav,Restart the initial version. It will take about 5 minutes. Please be patient.,"Перезапуск початкової версії. Це займе близько 5 хвилин. Зачекайте, будь ласка.",Перезапуск відновлення початкової версії системи. Це займе близько пʼяти хвилин
+bl_recovery_start.wav,Restoring the initial version. It will take about 5 minutes. Please be patient.,Відновлення початкової версії. Це займе близько 5 хвилин.,Відновлюю початковий стан системи. Це займе близько пʼяти хвилин
+bl_recovery_updatefailed.wav,The upgrade failed. It will take about 5 minutes to start restoring the initial version. Please be patient.,Не вдалося виконати оновлення. Відновлення початкової версії. Це займе близько 5 хвилин,Не вдалося виконати оновлення. Відновлюю початкову версію системи. Це займе близько пʼяти хвилин.
+charging.wav,Charging.,Заряджання.,  Я відчуваю приплив сил.
+clean_bin.wav,Please clean the dustbin.,"Будь ласка, очистіть пилозбірник","Схоже, пилозбірник досяг критичної маси. Очистіть його."
 13,clean_finish.wav,Finished cleaning. Going back to the dock.,Прибирання завершено. Повертаюсь на док-станцію,Дослід з прибирання завершено. Результат ви жахлива людина. Повертаюсь на док-станцію.
 14,di.wav,Ding dong!,Дзинь дзилинь!,Короткий подвійний звук дзвінка 
 15,ding.wav,Ding!,Дзинь!, Короткий звук дзвінка 
