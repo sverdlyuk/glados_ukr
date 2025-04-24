@@ -126,7 +126,7 @@ for /r "%SOURCE_FOLDER%" %%x in (*) do (
 * Готово!
 
 ## ⚙️Встановлення голосового пакету Roborock
-[Демо відео](https://www.youtube.com/shorts/RhcbOiGvVik?feature=share).Цей голосовий пакет має працювати на роботах пилососмоках Roborock 1 та 2 покоління (v1, M1S, S4, S5, S5e, S6, S6_MaxV, S6_Pure, T6). Я тестував на v1 (rockrobo.vacuum.v1, те саме що Gen 1 Xiaomi Mi SDJQRO2RR). Пилососи третього покоління мають голосові пакети підписані сертифікатом Roborock. Через це встановлення користувацьких голосових пакетів неможливе.
+[Демо відео](https://www.youtube.com/shorts/RhcbOiGvVik?feature=share). Цей голосовий пакет має працювати на роботах пилососмоках Roborock 1 та 2 покоління (v1, M1S, S4, S5, S5e, S6, S6_MaxV, S6_Pure, T6). Я тестував на v1 (rockrobo.vacuum.v1, те саме що Gen 1 Xiaomi Mi SDJQRO2RR). Пилососи третього покоління мають голосові пакети підписані сертифікатом Roborock. Через це встановлення користувацьких голосових пакетів неможливе.
 Щоб встановити голосовий пакет:
 1. Завантажте [roborock_glados.pkg]([url](https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/roborock_glados.pkg)) на свій комп'ютер;
 2. Встановіть [python-miio]([url](https://github.com/rytilahti/python-miio));
