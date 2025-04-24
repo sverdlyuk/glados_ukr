@@ -2,7 +2,7 @@
 [![Банер](https://github.com/sverdlyuk/glados_ukr/blob/main/banner.png)](https://fpv-drones.sitepulse.com.ua)
 [![DOU Blog](https://img.shields.io/badge/DOU-Blog-blue?style=flat-square&logo=readme&logoColor=white)](https://dou.ua/users/bogdan-sverdlyuk/articles/)
 [![Підтримати мене](https://img.shields.io/badge/Підтримати_мене-Linktree-brightgreen?style=flat-square&logo=buymeacoffee&logoColor=white)](https://linktr.ee/sverdlyuk)
-[![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&style=flat-square)](https://discord.com/invite/kDv3hmpKbg)
+[![Чат Розумний Будинок](https://img.shields.io/badge/Чат-Розумний_Будинок-blue?style=flat-square&logo=element&logoColor=white)](https://app.element.io/#/room/%23selfhostedua:matrix.org)
 [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@Lost_HumanVO)
 
 Цей голосовий пакет дозволяє вашому роботу-пилососу озвучувати свої дії голосом GLaDOS — штучного інтелекту з гри Portal 2, відомого своєю токсичністю, зверхністю та саркастичним гумором.
