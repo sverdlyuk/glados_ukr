@@ -4,6 +4,7 @@
 [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@Lost_HumanVO)
 [![DOU Blog](https://img.shields.io/badge/DOU-Blog-blue?style=flat-square&logo=readme&logoColor=white)](https://dou.ua/users/bogdan-sverdlyuk/articles/)
 [![Support](https://img.shields.io/badge/Підтримати-Linktree-brightgreen?style=flat-square&logo=buymeacoffee&logoColor=white)](https://linktr.ee/sverdlyuk)
+
 Цей голосовий пакет дозволяє вашому роботу-пилососу озвучувати свої дії голосом GLaDOS — штучного інтелекту з гри Portal 2, відомого своєю токсичністю, зверхністю та саркастичним гумором.
 Проєкт створено за [фінансової підтримки ](https://dou.ua/forums/topic/50353/) української спільноти та озвучений неперевершеною Azla. Якщо ви не грали Portal та [Portal 2](https://youtu.be/0tkvdVWZKE0) у озвучці Lost Human, наполегливо рекомендую. Якщо вам потрібна якісна озвучка від Lost Human звертайтесь за адресою chernobyl6@gmail.com. 
 
