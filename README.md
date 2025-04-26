@@ -34,7 +34,7 @@
 |------|-------------------------------------------------------------------------------------|
 | md5  | 3545e91c0626beccbd284469f6283a77                                                    |
 | size | 9620968                                                                             |
-| <a href="https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/Other%20files/glados_samples.mp3" class="button" target="_blank">▶️ </a>  | [Завантажити приклад озвучення](https://github.com/sverdlyuk/glados_ukr/raw/main/glados_samples.mp3)|
+| <a href="https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/Other%20files/glados_samples.mp3" class="button" target="_blank">▶️ </a>  | [Завантажити приклад озвучення](github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/Other%20files/glados_samples.mp3)|
 
 ### 1. Home Assistant інтеграція Dreame Vacuum
 - Встановіть інтеграцію [Dreame vacuum](https://github.com/Tasshack/dreame-vacuum.git). 
