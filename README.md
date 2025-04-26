@@ -1,5 +1,5 @@
 # Український голосовий пакет GLaDOS для робота пилосмока  
-[![Банер](https://github.com/sverdlyuk/glados_ukr/blob/main/Other files/banner.png)](https://fpv-drones.sitepulse.com.ua)
+[![Банер](https://github.com/sverdlyuk/glados_ukr/blob/main/Other%20files/banner.png)](https://fpv-drones.sitepulse.com.ua)
 [![DOU Blog](https://img.shields.io/badge/DOU-Blog-blue?style=flat-square&logo=readme&logoColor=white)](https://dou.ua/users/bogdan-sverdlyuk/articles/)
 [![Підтримати мене](https://img.shields.io/badge/Підтримати_мене-Linktree-brightgreen?style=flat-square&logo=buymeacoffee&logoColor=white)](https://linktr.ee/sverdlyuk)
 [![Чат Розумний Будинок](https://img.shields.io/badge/Чат-Розумний_Будинок-blue?style=flat-square&logo=element&logoColor=white)](https://app.element.io/#/room/%23selfhostedua:matrix.org)
