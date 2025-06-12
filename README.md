@@ -16,3 +16,32 @@ The phrases have been rewritten with GLaDOS's signature dark humor and toxic per
 | Xiaomi    | tar.gz         | All `xiaomi.vacuum` models that support voice package installation via the [specification](https://home.miot-spec.com/s/xiaomi.vacuum) |
 | Midea     | .zip           | Midea M7 Pro                                                                                          |
 
+
+## ⚙️Installing the Dreame Voice Pack
+
+You can install the GLaDOS voice pack in several ways. A detailed guide is available [here](https://dou.ua/forums/topic/49563/).
+
+| url  | https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz |
+|------|-------------------------------------------------------------------------------------|
+| md5  | 3545e91c0626beccbd284469f6283a77                                                    |
+| size | 9620968                                                                             |
+| <a href="https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/Other%20files/glados_samples.mp3" class="button" target="_blank">▶️ </a>  | [Download sample voice](https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/Other%20files/glados_samples.mp3)|
+
+### 1. Home Assistant with Dreame Vacuum Integration
+- Install the [Dreame vacuum](https://github.com/Tasshack/dreame-vacuum.git) integration.
+
+[![Add to HACS via My Home Assistant](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Tasshack&repository=dreame-vacuum&category=integration)
+
+- In Home Assistant, go to `"Developer Tools"` -> `"Services"` and switch to `YAML mode`
+- Paste the following code:
+
+  ```yaml
+  service: dreame_vacuum.vacuum_install_voice_pack
+  data:
+    lang_id: UK
+    url: >-
+      https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz
+    md5: 3545e91c0626beccbd284469f6283a77
+    size: 9620968
+  target:
+    entity_id: vacuum.mops
