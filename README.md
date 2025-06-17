@@ -65,3 +65,23 @@ You can install the GLaDOS voice pack in several ways. A detailed guide is avail
     piid: 4 # piid for setting the voice pack
     value: '{"id":"UK","url":"https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz","md5":"3545e91c0626beccbd284469f6283a77","size":9620968}'
   
+Replace the entity_id `vacuum.dreame_p2041o_796c_robot_cleaner` with the entity_id of your robot vacuum.
+
+3. Python Miio (genericmiot)
+- Install python-miio (https://github.com/rytilahti/python-miio) and run the following command:
+python -m miio.cli genericmiot --ip 192.168.50.157 --token 614a498f6c72506d6e3066764f73696a raw_command set_properties "[{'did': '8023334994', 'siid': 7, 'piid': 4, 'value' : '{\"id\":\"UK\",\"url\":\"https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz\",\"md5\":\"3545e91c0626beccbd284469f6283a77\",\"size\":9620968}'}]"
+
+4. Python Miio (device)
+miiocli device --ip 192.168.50.157 --token 614a498f6c72506d6e3066764f73696a raw_command set_properties "[{'did': '8023334994', 'siid': 7, 'piid': 4, 'value' : '{\"id\":\"UK\",\"url\":\"https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz\",\"md5\":\"3545e91c0626beccbd284469f6283a77\",\"size\":9620968}'}]"
+
+- Replace the IP and token with your own.
+
+5. Valetudo
+- Open the Valetudo web interface by entering the IP address of your robot vacuum into your web browser.
+- In Valetudo, go to "Robot Settings" -> "Misc Settings."
+- Paste the following parameters into the "Voice packs" section:
+    - URL: https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz
+    - Language Code: UK
+    - Hash: 3545e91c0626beccbd284469f6283a77
+    - File size: 9620968
+- Save and click "Set Voice Pack".
