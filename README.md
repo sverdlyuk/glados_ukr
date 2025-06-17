@@ -114,5 +114,9 @@ where `192.168.0.124` should be replaced with the IP address of your robot vacuu
 To create your own voice pack, you need to:
 1. Create or download files in .wav format, bitrate 1411.2 KB/s, sample rate 44.1 or 16.0 kHz;
 2. Download the encryption utility [ccrypt](https://ccrypt.sourceforge.net);
-3. In the command line, in the folder with the files, run the command ```tar zc *.wav | ccrypt -e -K "r0ckrobo#23456" > roborock_glados.pkg``` where `roborock_glados` should be replaced with any name you want for your voice pack.
-4. Done! You can upload the created .pkg file to your robot vacuum.
+3. In the command line, in the folder with the files, run the command
+```
+tar zc *.wav | ccrypt -e -K "r0ckrobo#23456" > roborock_glados.pkg
+```
+where `roborock_glados` should be replaced with any name you want for your voice pack.
+6. Done! You can upload the created .pkg file to your robot vacuum.
