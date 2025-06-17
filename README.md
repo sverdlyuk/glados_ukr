@@ -54,8 +54,8 @@ You can install the GLaDOS voice pack in several ways. A detailed guide is avail
 
 [![Add to HACS via My Home Assistant](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=al-one&repository=hass-xiaomi-miot&category=integration)
 
-- In Home Assistant, go to **Developer Tools** → **Services** and switch to `YAML mode`.  
-- Paste the following code:
+In Home Assistant, go to **Developer Tools** → **Services** and switch to `YAML mode`.  
+Paste the following code:
 
   ```yaml
   service: xiaomi_miot.set_miot_property
@@ -68,7 +68,7 @@ You can install the GLaDOS voice pack in several ways. A detailed guide is avail
 Replace the entity_id `vacuum.dreame_p2041o_796c_robot_cleaner` with the entity_id of your robot vacuum.
 
 ### 3. Python Miio (genericmiot)
-- Install [python-miio](https://github.com/rytilahti/python-miio) and run the following command:
+Install [python-miio](https://github.com/rytilahti/python-miio) and run the following command:
 ```python
 python -m miio.cli genericmiot --ip 192.168.50.157 --token 614a498f6c72506d6e3066764f73696a raw_command set_properties "[{'did': '8023334994', 'siid': 7, 'piid': 4, 'value' : '{\"id\":\"UK\",\"url\":\"https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz\",\"md5\":\"3545e91c0626beccbd284469f6283a77\",\"size\":9620968}'}]"
 ```
@@ -78,7 +78,7 @@ python -m miio.cli genericmiot --ip 192.168.50.157 --token 614a498f6c72506d6e306
 miiocli device --ip 192.168.50.157 --token 614a498f6c72506d6e3066764f73696a raw_command set_properties "[{'did': '8023334994', 'siid': 7, 'piid': 4, 'value' : '{\"id\":\"UK\",\"url\":\"https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz\",\"md5\":\"3545e91c0626beccbd284469f6283a77\",\"size\":9620968}'}]"
 ```
 
-- Replace the IP and token with your own.
+Replace the IP and token with your own.
 
 ### 5. Valetudo
 ```
