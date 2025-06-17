@@ -97,3 +97,20 @@ Replace the IP and token with your own.
 - Download any existing voice pack: [GLaDOS_ukr](https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz), [uk_female_pensive](https://github.com/oleksandr-belei/dreame-vacuum-uk-voice-packs/raw/refs/heads/main/voice_packs/uk_female_pensive), [dreame_female_uk](https://awsde0.fds.api.xiaomi.com/dreame-product/resources/59bcaf5201f15950c12917d0bb505321), [Les Poderevyansky](https://github.com/KonstantinDev7/Voice_Packs_for_Mi_Robot_S10_Plus/raw/refs/heads/main/Voice_Packs/LesV1ogg.tar.gz). A voice pack is a tar.gz archive. For example, the GLaDOS_ukr voice pack has a .gz extension. To open the archive, rename the extension from `.tar` to `tar.gz`. Similarly, you can add the extension to a pack that has no extension. Open the archive (on MacOS I used BetterZip) and replace the archive files with your own. Note: the archive must contain only files, not a folder with files.
 
 - Upload the voice pack somewhere online to get a link to the file. For example, a public repository on GitHub, GitLab, FTP server, etc. Find out the file size in bytes and the md5 checksum of the file. If you don’t know how to do this, you can use online services.
+
+## ⚙️ Installing the Roborock Voice Pack
+[Demo video](https://www.youtube.com/shorts/RhcbOiGvVik?feature=share). This voice pack is intended to work on Roborock robot vacuums of the 1st and 2nd generation (v1, M1S, S4, S5, S5e, S6, S6_MaxV, S6_Pure, T6). I tested it on v1 (rockrobo.vacuum.v1, same as Gen 1 Xiaomi Mi SDJQRO2RR). Third-generation vacuums have voice packs signed with the Roborock certificate. Because of this, installing custom voice packs is not possible.
+
+To install the voice pack:
+1. Download [roborock_glados.pkg](https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/roborock_glados.pkg) to your computer;
+2. Install [python-miio](https://github.com/rytilahti/python-miio);
+3. In the command line, in the folder with roborock_glados.pkg, run the command
+mirobo --ip 192.168.0.124 --token 50597y49p1894f6d6e67477349747408 install-sound roborock_glados.pkg
+where `192.168.0.124` should be replaced with the IP address of your robot vacuum, and `50597y49p1894f6d6e67477349747408` with your robot vacuum's token. You can find the token using the command `python -m miio.cli cloud list` (Windows), `miiocli cloud list` (Linux, MacOS), or any other convenient method like [this one](https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor).
+
+## 🎙️ How to create your own Roborock voice pack
+To create your own voice pack, you need to:
+1. Create or download files in .wav format, bitrate 1411.2 KB/s, sample rate 44.1 or 16.0 kHz;
+2. Download the encryption utility [ccrypt](https://ccrypt.sourceforge.net);
+3. In the command line, in the folder with the files, run the command `tar zc *.wav | ccrypt -e -K "r0ckrobo#23456" > roborock_glados.pkg` where `roborock_glados` should be replaced with any name you want for your voice pack.
+4. Done! You can upload the created .pkg file to your robot vacuum.
