@@ -148,3 +148,20 @@ To create your own voice pack for Midea, simply prepare a folder with audio file
 * Sample rate: 48000 Hz (number of audio samples per second)
 File names must correspond to the numbers they represent. More details are in the [Midea command mapping file](https://github.com/sverdlyuk/glados_ukr/blob/main/midea_glados_uk_mapping.csv).
 For convenience, here are the [original Midea M7 Pro sound files](https://github.com/sverdlyuk/glados_ukr/tree/main/Other%20files/original).
+
+## 🎙️ How to create your own Xiaomi voice pack
+A Xiaomi voice pack is a `tar.gz` archive containing `.mp3` files without folders (all files are placed directly in the root of the archive). All files are named with numbers. Each number corresponds to a specific phrase. See more details in the [Xiaomi command mapping](https://github.com/sverdlyuk/glados_ukr/blob/main/xiaomi_glados_uk_mapping.csv). The file bitrate is 96 kbps. The sample rate is 44.1 kHz or 16.0 kHz.
+
+There is a difference in quality between low bitrate (e.g., 32 kbps) and higher bitrate (e.g., 96 or 120 kbps), but for short voice phrases it is almost unnoticeable. Therefore, it is recommended to use a bitrate in the range of 100–120 kbps for an optimal balance between quality and file size.
+
+## 👏 Acknowledgements
+Special thanks for the truly monumental work in creating this voice pack to [Lost Human](https://www.youtube.com/channel/UCZuVCATSHsgvBZMH-k3Gjcg).  
+Thanks to everyone who financially supported this project. Without your donations, it would have been impossible. Thanks to [Oleksandr Belei](https://github.com/oleksandr-belei/dreame-vacuum-uk-voice-packs) for the Dreame phrase file used in this project.
+
+## 💬 Support
+If something remains unclear or you have difficulties with setup — feel free to ask for help. You can create a topic in the [Discussions tab](https://github.com/sverdlyuk/glados_ukr/discussions), write in the [Smart Home | Matrix chat](https://app.element.io/#/room/#selfhostedua:matrix.org), or leave a comment in the relevant [DOU topic](https://dou.ua/forums/topic/49563/).
+
+🔧 If you notice inaccuracies or have ideas for improvement — I would sincerely appreciate your pull request or feedback.
+
+## 📜 License
+This project is open and available under the MIT license. You are free to use and modify it according to the license terms.
