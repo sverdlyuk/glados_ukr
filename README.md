@@ -138,3 +138,13 @@ adb push “%%x” “/oem/sound/!path!”
 endlocal
 )
 ```
+* Change the file extension from .txt to .bat, then run it.
+* Done!
+
+## 🎙️ How to create your own Midea M7 Pro voice pack
+To create your own voice pack for Midea, simply prepare a folder with audio files in .mp3 format. Each file must meet the following specifications:
+* Bitrate: 64 kbps (audio compression quality)
+* Channels: mono (single-channel audio)
+* Sample rate: 48000 Hz (number of audio samples per second)
+File names must correspond to the numbers they represent. More details are in the [Midea command mapping file](https://github.com/sverdlyuk/glados_ukr/blob/main/midea_glados_uk_mapping.csv).
+For convenience, here are the [original Midea M7 Pro sound files](https://github.com/sverdlyuk/glados_ukr/tree/main/Other%20files/original).
