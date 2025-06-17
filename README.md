@@ -120,3 +120,21 @@ tar zc *.wav | ccrypt -e -K "r0ckrobo#23456" > roborock_glados.pkg
 ```
 where `roborock_glados` should be replaced with any name you want for your voice pack.
 6. Done! You can upload the created .pkg file to your robot vacuum.
+
+## ⚙️ Installing the Midea M7 Pro Voice Pack
+* Download [SDK Platform Tools](https://developer.android.com/tools/releases/platform-tools) to your PC and extract them to any convenient folder.
+* Connect the robot to your PC. The USB port is located under the top cover beneath the Reset button, hidden behind a plug.
+* Open the command line in the extracted Platform Tools folder (right-click -> Open in Terminal) and run the command ```adb devices``` to make sure your device is recognized. If you see your device ID, everything is fine; if not, your cable may not support data transfer (I tried several cables I had and only one worked).
+* Then download the [voice pack](https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/GLaDOS%20Midea.zip) and extract it to any folder convenient for you.
+* Create a text file in the Platform Tools folder with the following code:
+```
+@echo off
+set SOURCE_FOLDER=full path to the folder with sounds
+for /r “%SOURCE_FOLDER%” %%x in (*) do (
+set “file=%%x”
+setlocal enabledelayedexpansion
+set “path=!file:%SOURCE_FOLDER%=!”
+adb push “%%x” “/oem/sound/!path!”
+endlocal
+)
+```
