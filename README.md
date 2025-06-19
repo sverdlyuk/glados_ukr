@@ -150,7 +150,7 @@ File names must correspond to the numbers they represent. More details are in th
 For convenience, here are the [original Midea M7 Pro sound files](https://github.com/sverdlyuk/glados_ukr/tree/main/Other%20files/original).
 
 ## 🎙️ How to create your own Xiaomi voice pack
-A Xiaomi voice pack is a `tar.gz` archive containing `.mp3` files without folders (all files are placed directly in the root of the archive). All files are named with numbers. Each number corresponds to a specific phrase. See more details in the [Xiaomi command mapping](https://github.com/sverdlyuk/glados_ukr/blob/main/xiaomi_glados_uk_mapping.csv). The file bitrate is 96 kbps. The sample rate is 44.1 kHz or 16.0 kHz.
+A [Xiaomi voice pack](https://github.com/sverdlyuk/glados_ukr/blob/main/GLaDOS_xiaomi.tar) is a `tar.gz` archive containing `.mp3` files without folders (all files are placed directly in the root of the archive). All files are named with numbers. Each number corresponds to a specific phrase. See more details in the [Xiaomi command mapping](https://github.com/sverdlyuk/glados_ukr/blob/main/xiaomi_glados_uk_mapping.csv). The file bitrate is 96 kbps. The sample rate is 44.1 kHz or 16.0 kHz.
 
 There is a difference in quality between low bitrate (e.g., 32 kbps) and higher bitrate (e.g., 96 or 120 kbps), but for short voice phrases it is almost unnoticeable. Therefore, it is recommended to use a bitrate in the range of 100–120 kbps for an optimal balance between quality and file size.
 
