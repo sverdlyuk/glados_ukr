@@ -15,7 +15,7 @@ The phrases have been rewritten with GLaDOS's signature dark humor and toxic per
 | Dreame    | tar.gz         | All `dreame.vacuum` models that support voice package installation via the [specification](https://home.miot-spec.com/s/dreame.vacuum)  |
 | Xiaomi    | tar.gz         | All `xiaomi.vacuum` models that support voice package installation via the [specification](https://home.miot-spec.com/s/xiaomi.vacuum) |
 | Midea     | .zip           | Midea M7 Pro      
-| Xiaomi ijai |In process ⏳  | `ijai.vacuum` models that support voice package installation via the [specification](https://home.miot-spec.com/s/ijai)|
+| Xiaomi Ijai |In process ⏳  | `ijai.vacuum` models that support voice package installation via the [specification](https://home.miot-spec.com/s/ijai)|
 
 
 ## ⚙️Installing the Dreame Voice Pack
