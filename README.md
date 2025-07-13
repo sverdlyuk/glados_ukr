@@ -14,7 +14,8 @@ The phrases have been rewritten with GLaDOS's signature dark humor and toxic per
 | Roborock  | .pkg           | First- and second-generation robots: v1, M1S, S4, S5, S5e, S6, S6 MaxV, S6 Pure, T6                    |
 | Dreame    | tar.gz         | All `dreame.vacuum` models that support voice package installation via the [specification](https://home.miot-spec.com/s/dreame.vacuum)  |
 | Xiaomi    | tar.gz         | All `xiaomi.vacuum` models that support voice package installation via the [specification](https://home.miot-spec.com/s/xiaomi.vacuum) |
-| Midea     | .zip           | Midea M7 Pro                                                                                          |
+| Midea     | .zip           | Midea M7 Pro      
+| Xiaomi ijai |In process    |
 
 
 ## ⚙️Installing the Dreame Voice Pack
