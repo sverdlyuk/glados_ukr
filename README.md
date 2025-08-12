@@ -91,9 +91,9 @@ Replace the IP and token with your own.
     - Language Code: UK
     - Hash: 3545e91c0626beccbd284469f6283a77
     - File size: 9620968
-- Save and click "Set Voice Pack".
   ```
-
+- Save and click "Set Voice Pack".
+  
 ## 🎙️ How to create your own Dreame voice pack
 - Prepare `.ogg` files, 16,000 Hz, Stereo/Mono according to the [phrase table](https://github.com/oleksandr-belei/dreame-vacuum-uk-voice-packs/blob/main/ua_voice_mapping.csv). You can create only 5-10 of the most popular phrases. Other phrases will be taken from the donor pack.
 
