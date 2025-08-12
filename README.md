@@ -92,7 +92,7 @@ Replace the IP and token with your own.
     - Hash: 3545e91c0626beccbd284469f6283a77
     - File size: 9620968
 - Save and click "Set Voice Pack".
-```
+  ```
 
 ## 🎙️ How to create your own Dreame voice pack
 - Prepare `.ogg` files, 16,000 Hz, Stereo/Mono according to the [phrase table](https://github.com/oleksandr-belei/dreame-vacuum-uk-voice-packs/blob/main/ua_voice_mapping.csv). You can create only 5-10 of the most popular phrases. Other phrases will be taken from the donor pack.
@@ -108,6 +108,7 @@ To install the voice pack:
 1. Download [roborock_glados.pkg](https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/roborock_glados.pkg) to your computer;
 2. Install [python-miio](https://github.com/rytilahti/python-miio);
 3. In the command line, in the folder with roborock_glados.pkg, run the command
+
 ```python
 mirobo --ip 192.168.0.124 --token 50597y49p1894f6d6e67477349747408 install-sound roborock_glados.pkg
 ```
