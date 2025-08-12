@@ -82,10 +82,11 @@ miiocli device --ip 192.168.50.157 --token 614a498f6c72506d6e3066764f73696a raw_
 Replace the IP and token with your own.
 
 ### 5. Valetudo
-```
+
 - Open the Valetudo web interface by entering the IP address of your robot vacuum into your web browser.
 - In Valetudo, go to "Robot Settings" -> "Misc Settings."
 - Paste the following parameters into the "Voice packs" section:
+  ```
     - URL: https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz
     - Language Code: UK
     - Hash: 3545e91c0626beccbd284469f6283a77
