@@ -107,7 +107,6 @@ miiocli device --ip 192.168.50.157 --token 614a498f6c72506d6e3066764f73696a raw_
 > Якщо в посиланні  
 > `https://awsde0.fds.api.xiaomi.com/dreame-product/dreame.vacuum.p2008/voices/soundpackage.json`  
 > замінити модель (`dreame.vacuum.p2008`) на свою, можна побачити всі голосові пакети для свого пилососа.  
->  
 > Це посилання працює лише для пилососів Dreame. Модель можна знайти в [специфікації](https://home.miot-spec.com/). Так легко можна побачити та завантажити усі офіційно доступні голосові пакети.
 - Підготуйте файли `.ogg`, 16 000 Гц, Stereo/Mono відповідно до [таблиці фраз](https://github.com/oleksandr-belei/dreame-vacuum-uk-voice-packs/blob/main/ua_voice_mapping.csv). Можна створити лише 5-10 найпопулярніших фраз. Інші фрази будуть взяті з пакету-донора.
   
