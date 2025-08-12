@@ -66,7 +66,7 @@ Paste the following code:
     piid: 4 # piid for setting the voice pack
     value: '{"id":"UK","url":"https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz","md5":"3545e91c0626beccbd284469f6283a77","size":9620968}'
   ```
-  
+/
 Replace the entity_id `vacuum.dreame_p2041o_796c_robot_cleaner` with the entity_id of your robot vacuum.
 
 ### 3. Python Miio (genericmiot)
