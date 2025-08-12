@@ -95,6 +95,11 @@ Replace the IP and token with your own.
 - Save and click "Set Voice Pack".
   
 ## 🎙️ How to create your own Dreame voice pack
+> 💡 **Lifehack:**  
+> If you take the link  
+> `https://awsde0.fds.api.xiaomi.com/dreame-product/dreame.vacuum.p2008/voices/soundpackage.json`  
+> and replace the model part (`dreame.vacuum.p2008`) with your own, you can see all the voice packages available for your vacuum cleaner.  
+> This link works only for `dreame.vacuum` models. You can find your model in the [specifications](https://home.miot-spec.com/). This way, you can easily view and download all officially available voice packages.
 - Prepare `.ogg` files, 16,000 Hz, Stereo/Mono according to the [phrase table](https://github.com/oleksandr-belei/dreame-vacuum-uk-voice-packs/blob/main/ua_voice_mapping.csv). You can create only 5-10 of the most popular phrases. Other phrases will be taken from the donor pack.
 
 - Download any existing voice pack: [GLaDOS_ukr](https://github.com/sverdlyuk/glados_ukr/raw/refs/heads/main/uk_glados_voice_pack.gz), [uk_female_pensive](https://github.com/oleksandr-belei/dreame-vacuum-uk-voice-packs/raw/refs/heads/main/voice_packs/uk_female_pensive), [dreame_female_uk](https://awsde0.fds.api.xiaomi.com/dreame-product/resources/59bcaf5201f15950c12917d0bb505321), [Les Poderevyansky](https://github.com/KonstantinDev7/Voice_Packs_for_Mi_Robot_S10_Plus/raw/refs/heads/main/Voice_Packs/LesV1ogg.tar.gz). A voice pack is a tar.gz archive. For example, the GLaDOS_ukr voice pack has a .gz extension. To open the archive, rename the extension from `.tar` to `tar.gz`. Similarly, you can add the extension to a pack that has no extension. Open the archive (on MacOS I used BetterZip) and replace the archive files with your own. Note: the archive must contain only files, not a folder with files.
