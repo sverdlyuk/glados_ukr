@@ -25,6 +25,7 @@
 | Dreame    | tar.gz         | Усі моделі, `dreame.vacuum`, що підтримують завантаження голосового пакету у [специфікації](https://home.miot-spec.com/s/dreame.vacuum)  |
 | Xiaomi    | tar.gz         | Усі моделі `xiaomi.vacuum`, що підтримують завантаження голосового пакету у [специфікації](https://home.miot-spec.com/s/xiaomi.vacuum) |
 | Midea     | .zip            | Midea M7 Pro                                                                                             |
+| Xiaomi Ijai |.zip  | `ijai.vacuum v2`, `ijai.vacuum v3`, `ijai.vacuum.v18`, `ijai.vacuum.v19`|
 
 
 
