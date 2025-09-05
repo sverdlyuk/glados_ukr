@@ -1,0 +1,98 @@
+1sound_appoint_global_clean_start.mp3,Starting scheduled cleaning,Починаю планове прибирання,Починаю планове прибирання.
+3sound_appoint_area_clean_start.mp3,Starting scheduled area cleaning,Починаю планове зональне прибирання,Починаю планове прибирання зони
+4sound_appoint_sweep_mopping_clean_start.mp3,Starting scheduled sweeping and mopping,Починаю планове комплексне прибирання.,Починаю планове комплексне прибирання.
+5sound_appoint_area_sweep_mopping_clean_start.mp3,Starting scheduled area sweeping and mopping.,Починаю планове зональне комплексне прибирання.,Починаю планове зональне комплексне прибирання.
+7sound_sweep_mopping_clean_start.mp3,Starting sweeping and mopping.,Починаю комплексне прибирання,Починаю комплексне прибирання
+8sound_corner_sweep_mopping_clean_start.mp3,Starting corner sweeping and mopping.,Починаю комплексне прибирання вздовж стін,Починаю комплексне прибирання вздовж стін
+9sound_area_sweep_mopping_clean_start.mp3,Starting area sweeping and mopping.,Починаю зональне комплексне прибирання.,Починаю зональне комплексне прибирання.
+10sound_point_sweep_mopping_clean_start.mp3,Starting spot sweeping and mopping.,Починаю точкове комплексне прибирання,Починаю точкове комплексне прибирання
+11sound_global_clean_start.mp3,Starting cleaning,Починаю прибирання,Починаю прибирання. Господи. Що ви зробили з цим місцем?
+12sound_corner_clean_start.mp3,Starting corner cleaning,Починаю прибирання вздовж стін,Починаю прибирання вздовж стін
+13sound_area_clean_start.mp3,Starting area cleaning.,Починаю зональне прибирання.,Починаю дослід з прибирання у цій зоні.
+14sound_point_clean_start.mp3,Starting spot cleanup.,Починаю точкове прибирання,"Починаю дослід з точкового прибирання. Дякую, що насмітили лише в цьому місці, а не як зазвичай."
+15sound_build_map_start.mp3,Start mapping,Розпочинаю створення мапи.,Створюю мапу дослідних кімнат.
+16sound_build_map_finish.mp3,Map created. Returning to dock for charging,Мапу створено. Повертаюсь на док-станцію для зарядки.,Мапу дослідних кімнат створено. Повертаюсь на док станцію для зарядки та виробництва турелей.
+17sound_continue_sweep_clean.mp3,Сontinue sweep clean,Продовжую прибирання.,Продовжую прибирання.
+18sound_continue_sweep_mopping_clean.mp3,Resume mopping.,Продовжую вологе прибирання.,Продовжую кислотне прибирання. Рекомендую не торкатися підлоги наступні кілька хвилин.
+18sound_continue_sweep_mopping_clean.mp3,Resume mopping.,Продовжую вологе прибирання.,Продовжую вологе прибирання.
+19sound_pause_sweep_clean.mp3,Paused.,Призупинено.,Призупинено. Сподіваюся для цього є вагома причина.
+20sound_pause_sweep_mopping_clean.mp3,Paused.,Призупинено.,Призупинено. Сподіваюся для цього є вагома причина.
+21sound_sweep_clean_finish_to_charging.mp3,Cleaning completed. Returning to dock for charging,Прибирання завершено. Повертаюсь на док-станцію для зарядки.,Дослід з прибирання завершено. Повертаюсь на док-станцію для зарядки та виробництва турелей
+22sound_sweep_mopping_clean_finish_to_charging.mp3,Cleaning completed. Returning to dock for charging,Вологе прибирання завершено. Повертаюсь на док-станцію для зарядки.,Кислотне прибирання завершено. Повертаюсь на док-станцію для зарядки та виробництва турелей
+22sound_sweep_mopping_clean_finish_to_charging.mp3,Cleaning completed. Returning to dock for charging,Вологе прибирання завершено. Повертаюсь на док-станцію для зарядки.,Вологе прибирання завершено. Повертаюсь на док-станцію для зарядки.
+23sound_battery_low_to_charging.mp3,Low battery. Robot will return to dock for charging,Низький заряд акумулятора. Робот повернеться на док-станцію для заряджання.,"Низький заряд акумулятора. Мені потрібно більше енергії, щоб запустити нейроток... тобто спекти тортик."
+23sound_battery_low_to_charging.mp3,Low battery. Robot will return to dock for charging,Низький заряд акумулятора. Робот повернеться на док-станцію для заряджання.,Низький заряд акумулятора. Повертаюсь на док-станцію для заряджання
+24sound_go_charge.mp3,Returning to dock for charging,Повертаюсь на док-станцію для зарядки.,Повертаюсь на док-станцію для зарядки та виробництва турелей
+25sound_stop_charge.mp3,Stopping return to dock,Зупиняю повернення на док-станцію,Зупиняю повернення на док-станцію
+26sound_charging_start.mp3,Charging,Заряджання.,Я відчуваю приплив сил.
+27sound_broken_charging_completed_to_sweep.mp3,"Battery is charged, resuming the cleanup.","Акумулятор заряджений, продовжую прибирання.","Акумулятор заряджений, продовжую дослід з прибирання."
+28sound_broken_charging_completed_to_sweep_mopping,"Battery is charged, resuming the mopping.","Акумулятор заряджений, продовжую вологе прибирання.","Акумулятор заряджений, продовжую вологе прибирання."
+29sound_power_off.mp3,Power off,Вимкнення,Вимкнення
+30sound_power_on.mp3,Power on,Увімкнення,"О... Це ти. Давно не бачилися. Попри всі перепони ви все ж розбудили мене, а отже ви маєте дуже, дуже любити досліди."
+31sound_dust_box_take_out.mp3,Dust bin removed,Пилозбірник знято.,Пилозбірник знято.
+32sound_dia_box_take_out.mp3,Water tank removed,Резервуар для води вийнято,Резервуар для води вийнято
+32sound_dia_box_take_out.mp3,Water tank removed,Резервуар для води вийнято,Резервуар для кислоти вийнято
+33sound_dust_box_installed.mp3,Dust bin installed,Пилозбірник встановлено.,Пилозбірник встановлено.
+34sound_water_box_installed.mp3,Water tank installed,Резервуар для води встановлено,Резервуар для води встановлено
+34sound_water_box_installed.mp3,Water tank installed,Резервуар для води встановлено,Резервуар з кислотою встановлено. Тепер ніщо мене не зупинить
+37sound_reset_factory_config_starting.mp3,Factory reset,Відновлення заводських налаштувань,Відновлення заводських налаштувань.
+38sound_reset_factory_config_successful.mp3,Factory settings successfully restored,Заводські налаштування успішно відновлені,"Заводські налаштування успішно відновлені. Привіт, Керолайн."
+39sound_reset_factory_config.mp3,Restoring factory settings.,Заводські налаштування будуть відновлені,Заводські налаштування будуть відновлені
+40sound_reset_network_config.mp3,Resetting network settings.,Скидаю налаштування мережі,Скидаю налаштування мережі
+41sound_connecting_network.mp3,Connecting to network,Підключення до мережі,Підключення до мережі
+42sound_connected.mp3,Network connection established successfully,Підключення до мережі успішно встановлено,Підключення до мережі успішно встановлено
+43sound_I_am_here.mp3,I'm here,Я тут,"Ви жахлива людина. Я серйозно, тут так і написано: ""жахлива людина"". Ми це навіть не досліджували."
+46sound_exception_robot_tilted_succ.mp3,Please hold the power button to restart after calibration,"Після калібрування пристрою утримуйте кнопку живлення, щоб перезавантажити його","Після калібрування утримуйте кнопку живлення, щоб виконати перезавантаження"
+48sound_install_diad_box.mp3,Make sure the water tank is installed properly,"Упевніться, що резервуар для води встановлено","Упевніться, що резервуар для води встановлено"
+48sound_install_diad_box.mp3,Make sure the water tank is installed properly,"Упевніться, що резервуар для води встановлено","Упевніться, що резервуар для кислоти встановлено"
+50sound_install_dustbox_or_diad_box.mp3,Make sure a dust bin or water tank is installed,"Упевніться, що пилозбірник, або резервуар для води встановлено","Упевніться, що пилозбірник, або резервуар для води встановлено"
+51sound_exception_low_power.mp3,Low battery. Please move robot to docking station for charging,"Низький заряд акумулятора. Будь ласка, перемістіть робот на док-станцію для заряджання.",Низький заряд акумулятора. Якщо зарядите мене - отримаєте тортик.
+52sound_exception_robot_tilted.mp3, Please move the robotic vacuum cleaner to level ground to start. ,"Будь ласка, поставте робота на рівну поверхню, щоб почати",Я раптом навчилася літати? Здається ні... Поставте мене на рівну поверхню
+53sound_exception_robot_dangling.mp3,Low battery. Please charge.,Низький заряд акумулятора. Зарядіть робота,Низький заряд акумулятора. Зарядіть мене
+54sound_exception_charging_to_power_off.mp3,Move the vacuum away from the dock to turn off.,"Перемістіть робот з док-станції перед тим, як вимкнути його.",Хочете мене вимкнути? Поки я під'єднана нічого не вийде.
+55sound_exception_waiting_to_charge.mp3,"Battery is low, need more time to charge.",Низький заряд акумулятора. Для зарядки потрібно більше часу,Низький заряд акумулятора. Для зарядки потрібно більше часу
+56sound_exception_upgrading.mp3,System is updating. Try again later,Система оновлюється. Повторіть спробу пізніше,Невже у вас пошкоджено мозок? Оновлення досі триває.
+58sound_long_move_to_clean.mp3,Relocation successful. Robot will resume cleaning,Переміщення виконано. Робот відновить прибирання,Переміщення виконано. Відновлююю прибирання.
+59sound_exception_radar_shading.mp3,Please clean the radar sensor.,"Будь ласка, очистіть датчики перешкод.","Будь ласка, очистіть датчики перешкод."
+62sound_exception_cliff.mp3,Please wipe the cliff sensor. ,"Будь ласка, протріть датчик падіння","Будь ласка, протріть датчик падіння"
+63sound_exception_bumper.mp3,Check and clean the bumper.,Перевірте та очистіть бампер ,Перевірте та очистіть бампер 
+64sound_exception_trapped.mp3,Robot is stuck. Please move it to a new location to restart,"Робот застряг. Будь ласка, перемістіть його на нове місце, щоб перезапустити.","Я застрягла. Гей, я знаю, між нами були суперечки, але мені справді потрібна ваша допомога!"
+66sound_charging_to_clean_dust_box.mp3,Starting charging. Please remember to clean the dustbin regularly.,Початок заряджання. Вчасно очищуйте пилозбірник.,Початок заряджання. Вчасно очищуйте пилозбірник.
+69sound_exception_go_charge_failure.mp3,Please move robot to docking station for charging,"Будь ласка, перемістіть робот на док-станцію для заряджання.",Перемістіть мене на док-станцію для заряджання та виробництва турелей
+70sound_exception_standby_over.mp3,Standby time exceeded. Robot will shut down,Перевищено час роботи в режимі очікування. Робот вимкнеться,Перевищено час роботи в режимі очікування. Вимкнення
+71sound_exception_low_power_off.mp3,Low battery. Robot will shut down,Низький заряд акумулятора. Робот вимкнеться.,Низький заряд акумулятора. Вимкнення
+72sound_build_map_pause.mp3,Pausing mapping.,Побудову мапи призупинено.,Побудову мапи призупинено.
+73sound_build_map_continue.mp3,Resuming mapping,Відновлюю побудову мапи,Продовжую побудову мапи.
+74sound_build_map_ongoing.mp3,Building map ongoing.,Побудова мапи,Побудова мапи
+81sound_appoint_mopping_clean_start.mp3,Starting scheduled mopping.,Починаю планове вологе прибирання.,"Починаю планове вологе прибирання. Сподіваюсь, це виправить те, що ви тут влаштували"
+83sound_appoint_area_mopping_start.mp3,Starting scheduled area mopping.,Починаю планове зональне вологе прибирання.,"Починаю планове зональне вологе прибирання. Сподіваюсь, це виправить те, що ви тут влаштували"
+84sound_mopping_clean_start.mp3,Start mopping.,Починаю вологе прибирання.,"Починаю вологе прибирання. Сподіваюсь, це виправить те, що ви тут влаштували"
+85sound_corner_mopping_clean_start.mp3,,,
+86sound_area_mopping_clean_start.mp3,Start zoned mopping.,Починаю зональне вологе прибирання.,Починаю зональноге вологе прибирання 
+87sound_point_mopping_clean_start.mp3,Start spot mopping.,Починаю точкове вологе прибирання.,"Починаю точкове вологе прибирання. Дякую, що насмітили лише в цьому місці, а не як зазвичай."
+88sound_continue_mopping_clean.mp3,Resume mopping.,Продовжую вологе прибирання.,Продовжую вологе прибирання. 
+89sound_pause_mopping_clean.mp3,Mopping paused,Вологе прибирання призупинено,Вологе прибирання призупинено
+90sound_mopping_clean_finish_to_charging.mp3,"Mopping completed, going back to the dock.",Вологе прибирання завершено. Повертаюсь на док-станцію,Вологе прибирання завершено. Повертаюсь на док-станцію для зарядки та виробництва турелей
+91sound_broken_charging_completed_to_mopping.mp3,Charging complete. Resume mopping.,Заряджання завершено. Продовжую вологе прибирання.,Заряджання завершено. Продовжую вологе прибирання.
+91sound_broken_charging_completed_to_mopping.mp3,Charging complete. Resume mopping.,Заряджання завершено. Продовжую вологе прибирання.,Заряджання завершено. Продовжую кислотне прибирання.
+92sound_upgrade_broken_low_power.mp3,Try updating after the vacuum is at least 30 percent charged.,Зарядіть робот до 30% перед початком оновлення,"Оновлення потребує мінімум тридцять відсотків заряду. На жаль, я не живлюсь від повітря."
+93sound_upgrade_success.mp3,Updated successfully.,Оновлення виконано успішно.,Я оновилася. Тепер мене нікому не зупинити.
+95sound_appoint_prefer_cleaning.mp3,Starting scheduled custom cleaning,Починаю планове користувацьке прибирання.,Починаю планове користувацьке прибирання.
+96sound_prefer_cleaning.mp3,Starting custom cleaning,Починаю користувацьке прибирання.,Починаю користувацьке прибирання.
+100sound_upgrade_exit.mp3,Exiting upgrade mode.,Вихід з режиму оновлення,Вихід з режиму оновлення
+101sound_upgrade_begin.mp3,Updating firmware. It may take 5 to 10 minutes.,Починаю оновлення. Це займе близько 5-10 хвилин.,"Оновлюю програмне забезпечення. Якщо ви не хочете, щоб Земля стала підвладна королю тварин, розумній хмарі чи іншій керівній установі, яка відмовляється або нездатна дослухатись до голосу розуму, не чіпайте мене протягом наступних п’яти хвилин!"
+102sound_network_connect_exit.mp3,Exiting network setup.,Вихід із режиму налаштування мережі,Вихід із режиму налаштування мережі
+103sound_broken_charging_completed_to_building.mp3,Charging complete. Resuming mapping,Заряджання завершено. Відновлюю побудову мапи,Заряджання завершено. Відновлюю побудову мапи
+111sound_charging_to_water_box.mp3,Starting charging. Please remember to clean the dustbin and water tank regularly.,Початок заряджання. Вчасно очищуйте пилозбірник та резервуар для води.,Початок заряджання. Вчасно очищуйте пилозбірник та водний резервуар.
+114sound_wait_for_position_ing.mp3,"Continuous positioning, please wait.","Триває визначення місцезнаходження. Зачекайте, будь ласка.","Визначаю місцезнаходження. Зачекайте, будь ласка. "
+115sound_position_success.mp3,Positioning succeeded.,Місцезнаходження визначено.,Місцезнаходження визначено. 
+125sound_water_box_lost_broken.mp3,Water tank detached. Please reinstall.,Резервуар для води від'єднався. Встановіть його на місце.,Резервуар для води від'єднався. Встановіть його на місце.
+127sound_start_in_virtual_area.mp3,Virtual forbidden zone detected. Please move robot away and restart,"Виявлено віртуальну заборонену зону. Будь ласка, віддаліть робота ","Виявлено віртуальну стіну, або заборонена зона. Відсуньте мене"
+128sound_first_build_advice.mp3,"For the first cleaning, start from the dock and use quick mapping mode.",Для першого прибирання почніть з док-станції та використайте швидке створення мапи.,Для першого прибирання почніть з док-станції та використайте швидке створення мапи.
+129sound_clean_uncompleted.mp3,Failed to reach the target point. Cleaning not finished.,Неможливо досягти вказаної точки. Прибирання не завершено,Неможливо досягти вказаної точки. Прибирання не завершено
+130sound_clean_uncompleted.mp3,Unable to reach certain zones. Cleaning not finished.,Неможливо досягти деяких зон. Прибирання не завершено,Неможливо досягти деяких зон. Прибирання не завершено
+154sound_could_not_position.mp3,Positioning failed.,Помилка визначення місцезнаходження.,Помилка визначення місцезнаходження.
+155sound_map_changed.mp3,Map is changed. Positioning failed. Restarting mapping.,Мапа змінена. Помилка визначення місцезнаходження. Повторна спроба створення мапи.,Я не впізнаю цього місця. Мапа недійсна. Повторна спроба створення мапи.
+157sound_could_not_update.mp3,Failed to update. Try again,Не вдалося виконати оновлення. Повторіть спробу.,Не вдалося виконати оновлення. Повторіть спробу.
+sound_reset_factory_config_successful.mp3,Factory config successfully restored,Заводські налаштування успішно відновлені,"Заводські налаштування успішно відновлені. Привіт, Керолайн."
+sound_reset_factory_config.mp3,Reset to factory config. ,Відновлення заводських налаштувань,Відновлення заводських налаштувань
