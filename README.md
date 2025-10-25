@@ -174,6 +174,7 @@ The archive must also include a file named `md5.ini`. This file lists all the fi
 
 ```bash
 cd /Users/bohdan/Downloads/Ijai/ && for f in *.mp3; do echo "[$f]"; echo "MD5=$(md5 -q "$f")"; echo; done > md5.ini
+```
 
 ## 👏 Acknowledgements
 Special thanks for the truly monumental work in creating this voice pack to [Lost Human](https://www.youtube.com/channel/UCZuVCATSHsgvBZMH-k3Gjcg).  
