@@ -166,6 +166,14 @@ There is a difference in quality between low bitrate (e.g., 32 kbps) and higher 
 ## ⚙️ Installing the Xiaomi Voice Pack
 Unfortunately, I haven’t yet found a way to upload voice packs to xiaomi.vacuums, as I don’t have a xiaomi.vacuum device myself. If you do have one and are willing to help, I’d really appreciate it! You can contact me via email at b.sverdlyuk@ukr.net
 
+## 🎙️ How to Create Your Own Ijai Voice Pack
+
+An Ijai voice pack is a `.zip` archive that contains `.mp3` files in **32-bit float, 44100 Hz** format. The files inside the archive are stored **without any folders** (all files are placed directly in the root of the archive). Each file has a clearly defined name, such as `3sound_appoint_area_clean_start.mp3`. For more details, see the Ijai command mapping.
+
+The archive must also include a file named `md5.ini`. This file lists all the filenames along with the MD5 checksum of each file. For convenience, you can generate this file automatically using the following command on Linux or macOS:
+
+```bash
+cd /Users/bohdan/Downloads/Ijai/ && for f in *.mp3; do echo "[$f]"; echo "MD5=$(md5 -q "$f")"; echo; done > md5.ini
 
 ## 👏 Acknowledgements
 Special thanks for the truly monumental work in creating this voice pack to [Lost Human](https://www.youtube.com/channel/UCZuVCATSHsgvBZMH-k3Gjcg).  
